@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritu Raj</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://kit.fontawesome.com/3b87618221.js" crossorigin="anonymous"></script>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Data Analyst</p>
+            <h1>Hi, I'm <span>Ritu Raj</span><br> from India</h1>
+        </div>
+    </div>
+</div>
+<!-------------------------------about------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="about-col-1"></div>
+            <img src="Images/user.png"> -->
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>I am a dedicated and passionate Computer Science and Engineering student at Lovely Professional University, Phagwara. With a strong academic foundation and hands-on experience in various technical domains, I am committed to leveraging my skills and knowledge to solve real-world problems and contribute to innovative projects.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skils</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Eduction')">Eduction</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Data Analyst</span><br>Analysing the data</li>
+                        <li><span>Data Analyst</span><br>Analysing the data</li>
+                        <li><span>Data Analyst</span><br>Analysing the data</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Skolar</span><br>Analysing the data</li>
+                        <li><span>Data Analyst</span><br>Analysing the data</li>
+                        <li><span>Data Analyst</span><br>Analysing the data</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Eduction">
+                    <ul>
+                        <li><span>Data Analyst</span><br>Analysing the data</li>
+                        <li><span>Data Analyst</span><br>Analysing the data</li>
+                        <li><span>Data Analyst</span><br>Analysing the data</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Analyst</h2>
+                <p>As a dedicated and detail-oriented Data Analyst, I have a robust foundation in data analysis, statistical modeling, and data visualization. My academic journey in Computer Science and Engineering at Lovely Professional University, combined with practical experience from internships at Skill Stone and SOKALR, has equipped me with the technical expertise to handle large datasets efficiently. Proficient in tools such as Excel, Google Analytics, and Clevertap, I excel at uncovering actionable insights from complex data to drive informed decision-making. My strong problem-solving skills, coupled with a passion for continuous learning and teamwork, enable me to thrive in fast-paced, dynamic environments. With a commitment to leveraging data for strategic advantage, I am poised to contribute effectively as a Data Analyst in any forward-thinking organization.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-slack"></i>
+                <h2>Data Analyst</h2>
+                <p>As a dedicated and detail-oriented Data Analyst, I have a robust foundation in data analysis, statistical modeling, and data visualization. My academic journey in Computer Science and Engineering at Lovely Professional University, combined with practical experience from internships at Skill Stone and SOKALR, has equipped me with the technical expertise to handle large datasets efficiently. Proficient in tools such as Excel, Google Analytics, and Clevertap, I excel at uncovering actionable insights from complex data to drive informed decision-making. My strong problem-solving skills, coupled with a passion for continuous learning and teamwork, enable me to thrive in fast-paced, dynamic environments. With a commitment to leveraging data for strategic advantage, I am poised to contribute effectively as a Data Analyst in any forward-thinking organization.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-squarespace"></i>
+                <h2>Data Analyst</h2>
+                <p>As a dedicated and detail-oriented Data Analyst, I have a robust foundation in data analysis, statistical modeling, and data visualization. My academic journey in Computer Science and Engineering at Lovely Professional University, combined with practical experience from internships at Skill Stone and SOKALR, has equipped me with the technical expertise to handle large datasets efficiently. Proficient in tools such as Excel, Google Analytics, and Clevertap, I excel at uncovering actionable insights from complex data to drive informed decision-making. My strong problem-solving skills, coupled with a passion for continuous learning and teamwork, enable me to thrive in fast-paced, dynamic environments. With a commitment to leveraging data for strategic advantage, I am poised to contribute effectively as a Data Analyst in any forward-thinking organization.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media Analyst</h3>
+                    <p>Analysis your social media uses and data.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png">
+                <div class="layer">
+                    <h3>Social Media Analyst</h3>
+                    <p>Analysis your social media uses and data.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-3.png">
+                <div class="layer">
+                    <h3>Social Media Analyst</h3>
+                    <p>Analysis your social media uses and data.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- /contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-message"></i> ritu.12105749@lpu.in</p>
+                <p><i class="fa-solid fa-phone"></i> +91 8789055374</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-discord"></i></a>
+                </div>
+                <a href="Images/Ritu Raj.pdf" download class="btn btn2" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="42fa19e5-8f2e-4670-927d-0d80c7911a1b">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email"placeholder="Your Email" required>
+                    <input type="phone" name="Phone"placeholder="Your Phone Number">
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ritu Raj <br>Thank You <i class="fa-brands fa-napster"></i></p>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0"
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+</script>
+</body>
+</html>
